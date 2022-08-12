@@ -27,7 +27,7 @@ _This is a project I created at Epicodus that allows Dr.SillyStringz's to input 
 4) Create a new file within the Factory directory.  Use the command `touch appsettings.json`
 5) Please copy the text in the image below and enter your own entry points (Enter your database, userId, and password within appsettings.json).
 
-![ExampleSettings](ExampleSettings.PNG)
+![Settings](ExampleSettings.PNG)
 
 6) Open the directory and `cd to Factory`.
 7) To build the Hair Salon enter: `dotnet build`.
