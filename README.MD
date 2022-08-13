@@ -34,6 +34,12 @@ _This is a project I created at Epicodus that allows Dr.SillyStringz's to input 
 8) To run the Hair Salon enter: `dotnet run`.
 9) Open your browser of choice and use the url: http://localhost:5000/
 
+## For a visual representation of setup and a successfully built application, please consult the attached Gifs.
+
+![Setup](buildingapp.gif)
+
+![BuiltApp](WorkingApplication.gif)
+
 ## Project can be found at:
 https://github.com/CanadianRunner/SillystringzsFactory.Solution.git
 
