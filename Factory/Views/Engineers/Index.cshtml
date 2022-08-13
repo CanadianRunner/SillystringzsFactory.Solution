@@ -4,27 +4,30 @@
 
 @using Factory.Models;
 
-<h1>Engineers:</h1>
+<div class="container">
+  <h1>Engineers:</h1>
+  <p>Click on name of Engineer to see details</p>
 
-@if (@Model.Count == 0)
-{
-  <h3>No engineers have been added yet!</h3>
-} 
+  @if (@Model.Count == 0)
+  {
+    <h3>No engineers have been added yet!</h3>
+  } 
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Id</th>
-  </tr>
-  <tr>
-    @foreach(Engineer engineer in Model)
-    {
-      <td>@Html.ActionLink($"{engineer.Name}", "Details", new { id = engineer.EngineerId })</td>
-      <td>@engineer.EngineerId</td>
-    }
-  </tr>
-</table>
-<div class="buttons-group">
-  <button class="button-49 custom-width">@Html.ActionLink("Add engineer", "Create")</button>
-  <button class="button-49 custom-width">@Html.ActionLink("Home", "Index", "Home")</button>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Id</th>
+    </tr>
+    <tr>
+      @foreach(Engineer engineer in Model)
+      {
+        <td>@Html.ActionLink($"{engineer.Name}", "Details", new { id = engineer.EngineerId })</td>
+        <td>@engineer.EngineerId</td>
+      }
+    </tr>
+  </table>
+  <div class="buttons-group">
+    <button class="button-49 custom-width">@Html.ActionLink("Add engineer", "Create")</button>
+    <button class="button-49 custom-width">@Html.ActionLink("Home", "Index", "Home")</button>
+  </div>
 </div>

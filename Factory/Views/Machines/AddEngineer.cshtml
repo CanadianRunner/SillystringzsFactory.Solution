@@ -3,8 +3,9 @@
 }
 
 @model Factory.Models.Machine
-
+<div class="container">
 <h4>Add a Engineer below:</h4>
+
 
 @using (Html.BeginForm())
 {
@@ -16,6 +17,8 @@
   <input type="submit" value="Add Engineer"/>
 }
 
-<button class="btn btn-info">@Html.ActionLink("Home", "Index", "Home")</button>
-<button class="btn btn-info">@Html.ActionLink("Machines", "Index")</button>
-<button class="btn btn-info">@Html.ActionLink("Engineers", "Index")</button>
+
+<button class="button-49 custom-width">@Html.ActionLink("Home", "Index", "Home")</button>
+<button class="button-49 custom-width">@Html.ActionLink("Machines", "Index")</button>
+<button class="button-49 custom-width">@Html.ActionLink("Engineers", "Index")</button>
+</div>

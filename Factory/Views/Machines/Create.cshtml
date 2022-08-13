@@ -4,7 +4,10 @@
 
 @model Factory.Models.Machine
 
+<div class="container">
 <h4>Add a new Machine</h4>
+
+
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.Name)
@@ -15,4 +18,5 @@
   @Html.TextBoxFor(model => model.Description)
   <input type="submit" value="Add new machine" />
 }
-<p>@Html.ActionLink("Show all machines", "Index")</p>
+<button class="button-49 custom-width">@Html.ActionLink("Show all machines", "Index")</button>
+</div>

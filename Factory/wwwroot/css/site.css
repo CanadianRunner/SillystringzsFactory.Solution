@@ -10,7 +10,6 @@ a.navbar-brand {
 /* Provide sufficient contrast against white background */
 a {
   color: white;
-  text-decoration: none;
 }
 
 .btn-primary {
@@ -62,6 +61,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: lightgray;
 }
 .footer {
   position: absolute;
@@ -69,6 +69,7 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
+  background-color: white;
 }
 
 table {
@@ -93,3 +94,23 @@ tr:nth-child(even) {
   gap: 20px;
 }
 
+td > a{
+  color: black !important;
+}
+
+.home {
+  background-image: url('../images/shutterstock_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 152px);
+  width: 100vw;
+  color: white;
+  font-family: 'Silkscreen', cursive;
+  text-align: center;
+}
+  
