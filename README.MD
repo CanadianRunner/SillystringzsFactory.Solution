@@ -30,8 +30,8 @@ _This is a project I created at Epicodus that allows Dr.SillyStringz's to input 
 ![Settings](ExampleSettings.png)
 
 6) Open the directory and `cd to Factory`.
-7) To build the Hair Salon enter: `dotnet build`.
-8) To run the Hair Salon enter: `dotnet run`.
+7) To build the Factory enter: `dotnet build`.
+8) To run the Factory enter: `dotnet run`.
 9) Open your browser of choice and use the url: http://localhost:5000/
 
 ## For a visual representation of setup and a successfully built application, please consult the attached Gifs.
