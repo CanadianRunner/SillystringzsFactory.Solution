@@ -9,7 +9,8 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: white;
+  text-decoration: none;
 }
 
 .btn-primary {
@@ -70,5 +71,25 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.buttons-group {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
 
